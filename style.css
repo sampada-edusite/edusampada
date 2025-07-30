@@ -1,0 +1,252 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+.course-page {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.courses-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.course-card {
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  padding: 30px;
+  width: 280px;
+  transition: 0.3s ease;
+  text-align: left;
+}
+
+.course-card:hover {
+  transform: translateY(-10px);
+}
+
+.course-card h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.course-card p {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.course-card .btn {
+  display: inline-block;
+  padding: 10px 18px;
+  background-color: #2c80ff;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+/* Homepage Hero Section */
+.hero {
+  background-color: #e6f2ff; /* or remove if you want white */
+  padding: 30px 0; /* this controls height */
+  text-align: center;
+}
+.hero h1 {
+  font-size: 28px;
+  color: #333;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 16px;
+  color: #666;
+  margin-top: 8px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+.hero {
+  background-color: #f2f2f2; /* light grey/white */
+  padding: 60px 0;
+  text-align: center;
+  border-bottom: 1px solid #ddd; /* optional border */
+}
+
+.hero h1 {
+  font-size: 32px;
+  color: #003366;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #555;
+  margin: 5px 0 0;
+}
+footer {
+  background-color: #222;
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #ccc;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.about-us {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-us h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-us p {
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.6;
+}
+/* Header Topbar */
+.topbar {
+  background-color: #004080;
+  color: white;
+  padding: 12px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.topbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+.menu li a:hover {
+  text-decoration: underline;
+}
+/* Generic Section Styling */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 28px;
+  color: #003366;
+  margin-bottom: 15px;
+}
+
+.section p {
+  font-size: 16px;
+  color: #555;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+/* Alternate background for Courses section */
+.alt-section {
+  background-color: #f9f9f9;
+}
+.about {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about .about-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about p {
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.6;
+}
+   

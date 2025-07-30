@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Learning Platform</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f0f4f8;
+    }
+
+    nav {
+      background-color: #003366;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav h1 {
+      font-size: 24px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+    }
+
+    .hero {
+      background: linear-gradient(to right, #eaf4ff, #f0f8ff);
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      color: #003366;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #333;
+      margin-top: 10px;
+    }
+
+    .courses {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 40px auto;
+      gap: 30px;
+      max-width: 1200px;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      padding: 25px;
+      width: 280px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+      text-align: center;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      color: #003366;
+      font-size: 22px;
+    }
+
+    .card p {
+      margin: 10px 0;
+      color: #555;
+    }
+
+    .card a {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #003366;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .hero h2 {
+        font-size: 28px;
+      }
+
+      .card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h1>EduSampada</h1>
+    <div>
+      <a href="#">Home</a>
+      <a href="#courses">Courses</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h2>Welcome to EduSampada</h2>
+    <p>Your personalized learning platform for school subjects</p>
+  </section>
+
+  <section id="courses" class="courses">
+    <div class="card">
+      <h3>Science</h3>
+      <p>Explore interactive videos and notes</p>
+      <a href="science.html">Go to Course</a>
+    </div>
+
+    <div class="card">
+      <h3>Mathematics</h3>
+      <p>Learn concepts with examples and quizzes</p>
+      <a href="math.html">Go to Course</a>
+    </div>
+
+    <!-- Add more cards for English, History, etc. -->
+  </section>
+
+  <footer id="contact">
+    <p>Contact us: edusampada@example.com</p>
+    <p>© 2025 EduSampada. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
